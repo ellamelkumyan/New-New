@@ -1,9 +1,9 @@
 body {
-    padding-right: 17px;
+    padding-right: 1%;
 }
 
 .title {
-    margin-top: 40px;
+    margin-top: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     display: flex;
@@ -26,7 +26,7 @@ body {
 .picturePart {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px; 
+    gap: 6%; 
     margin-top: 5%;
     padding-left: 1.5%;
 }
@@ -43,7 +43,7 @@ li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    margin-right: 40px;
+    margin-right: 5vw;
     color: black;
 }
 a:link, a:visited {
@@ -55,7 +55,7 @@ ul {
     flex-direction: row;
 }
 .galleryPicture {
-    width: 300px;
+    width: 19vw;
     height: auto;
     transition: transform 0.3s ease; /*плавный переход */
     cursor: pointer; 
@@ -83,7 +83,7 @@ ul {
     width: 100%;
     justify-content: center;
     gap: 10%;
-    height: 240px;
+    height: 30vh;
     padding-top: 5%;
 }
 
@@ -119,15 +119,15 @@ ul {
 .films {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 колонки с равной шириной */
-    gap: 20px; 
-    margin-top: 20px;
+    gap: 1.5vw; 
+    margin-top: 10vh;
     width: 90%; 
-    max-width: 1200px; 
+    max-width: 70vw; 
     margin-top: 5%;
 }
 .movie-poster {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 100%; 
@@ -141,32 +141,33 @@ ul {
 
 .movie-poster img {
     width: 100%;
-    height: 170px;
+    height: 50%;
     display: block;
     object-fit: cover; /* сохраняю пропорции изображения */
 }
 
 .movie-info {
-    padding: 20px;
+    padding: 2%;
 }
 
 .movie-title {
     font-size: 24px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5% ;
     color: #333;
 }
 
 .movie-director {
     font-size: 18px;
     color: #555;
-    margin: 5px 0;
+    
 }
 
 .movie-date, .movie-time {
     font-size: 16px;
     color: #777;
-    margin: 5px 0;
+    margin-top: 3%;
+   
 }
 
 .movie-date::before {
@@ -192,8 +193,8 @@ ul {
 .slider {
     position: relative;
     margin-top: 5%;
-    width: 400px; 
-    height: 500px;
+    width: 20vw; 
+    height: 55vh;
     overflow: hidden; /* скрыла лишние части */
     margin-left: 5%;
 }
@@ -210,25 +211,16 @@ ul {
     flex-shrink: 0; /* запрещаю сжатие */
 }
 
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10; /* ось z (глубина), значит ближе к пользователю и перекрывает нижнее */
-}
+
 
 table {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 20vh;
     width: 80%;
-    margin-bottom: 70px;
+    margin-bottom: 30vh;
     flex-direction: row;
     justify-content: center;
 
